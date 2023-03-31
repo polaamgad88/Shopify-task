@@ -60,7 +60,7 @@ function Footer() {
   
   
     <div class="-ml-16">
-    <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">Subscribe</h6>
+    <h6 class="mb-4 flex justify-center font-bold uppercase md:justify-start">Subscribe</h6>
     <p class="mb-4 flex items-center justify-center md:justify-start">Sign up to recieve news about LOGO <br/> collections, events and sales. </p>
     
     

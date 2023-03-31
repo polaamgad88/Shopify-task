@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
+
+.custom-font {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-style: italic;
+}
+@keyframes rotate {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
+  
+  ul li {
+    animation: rotate 10s linear infinite;
+  }
