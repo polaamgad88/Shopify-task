@@ -5,12 +5,14 @@ import guyImage from './Imgs/guyImage.png';
 import girlImage from './Imgs/girlImage.png';
 import Offersline from "./Components/Offersline";
 import Shop from "./Components/Shop";
+import Cart from "./Components/Cart";
+import Product from "./Components/Product";
 
 
 function App() {
   return (
     <div className="h-screen ">
-     <Shop/>
+     <Product/>
     </div>
   );
 }
