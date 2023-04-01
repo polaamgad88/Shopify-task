@@ -9,7 +9,7 @@ function Product() {
       <div className="h-screen ">
       <Offersline/>
       <Header/>
-      
+      <a href="/Cart"> 
 
       <section class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto ml-80">
@@ -131,7 +131,7 @@ function Product() {
     </div>
   </div>
   </div>
-
+  </a>
   <Footer/>    
   </div>
     );

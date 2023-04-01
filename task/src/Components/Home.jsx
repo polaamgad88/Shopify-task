@@ -18,9 +18,10 @@ function Home() {
          object-contain ">
          <img class="border h-full w-full " src={girlImage}/>
          <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 hover:opacity-100 transition duration-500">
-          <a href="#" class="text-white custom-font  font-normal
+          <a href="/Shop" class="text-white custom-font  font-normal
            text-5xl  ">Women <br/> <a href="#" class="text-gray-500 text-sm font-sans">Shop now</a> </a>
          </div>
+         
         </div>
 
         
@@ -28,7 +29,7 @@ function Home() {
         relative inline-block object-contain">
         <img class="border h-full w-full  " src={guyImage}/> 
         <div class="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center opacity-0 hover:opacity-100 transition duration-500">
-          <a href="#" class="text-white custom-font  font-thin
+          <a href="/Shop" class="text-white custom-font  font-thin
            text-5xl  ">Men <br/> <a href="#" class="text-gray-500 text-sm font-sans">Shop now</a> </a>
          </div>
         </div>
